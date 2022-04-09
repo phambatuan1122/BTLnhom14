@@ -1,13 +1,13 @@
 
 * {
     padding: 0;
-    margin: 0;
+    margin: 0px;
     box-sizing: border-box;
 }
 
 .container{
-    max-width: 140px;
-    margin: Opx auto;
+    max-width: 1400px;
+    margin: 20px auto;
  }
 #header{
     background-color: 	#000000;
@@ -112,20 +112,90 @@ nav{
     right: Opx;
     padding: 0px 189px;
 }
+.btn {
+    width: 200px;
+    height: 54px;
+    border-radius: 15px;
+    border: none;
+    background-color: green;
+    color: #FFF;
+    cursor: pointer;
+}
+
 .content{
-    margin-top: 300px;
-    background-color: #f00;
+    margin-top: 26px;
+    margin-left: 26px;
+    background-color: 	#FF8C00;
+
 }
 .post{
     display: flex;
-    font-size: 50px;
-
- }
+}
 .post-content{
     display: flex;
     align-items: center;
+    margin-left: 26px;
+    font-size: 30px;
+}
+.btn1-post{
+    padding: 8px 12px;
+    background-color: 	#FFFF00;
+    color: #000000;
+    margin-bottom: 26px;
+    font-size: 20px;
+    cursor: pointer;
+
+
 }
 .description{
-    font-size: 20px;
-    margin: 20px 0;
- }
+    margin-top: 26px;
+    margin-bottom: 26px;
+    color: #FFF;
+
+}
+.btn2-post{
+    padding: 16px 18px;
+    background-color: #f8f8f8;
+    color: #000000;
+    cursor: pointer;
+
+
+}
+.product{
+    margin-top: 50px;
+    margin-left: 26px;
+    background-color: 	#EEEEE0;
+}
+.post-product{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.description1{
+    max-width: 750px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    color: #000000;
+}
+.product img{
+    max-width: 750px;
+    height: 750px;
+    margin-left: 200px;
+
+}
+.btn3-post{
+    padding: 16px 18px;
+    background-color: #f8f8f8;
+    color: #000000;
+    cursor: pointer;
+}
+.post1{
+    display: flex;
+}
+.post1-product{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-size: 30px;
+}
