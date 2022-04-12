@@ -179,9 +179,9 @@ nav{
     color: #000000;
 }
 .product img{
-    max-width: 750px;
+    max-width: 950px;
     height: 750px;
-    margin-left: 200px;
+ 
 
 }
 .btn3-post{
@@ -192,6 +192,7 @@ nav{
 }
 .post1{
     display: flex;
+    
 }
 .post1-product{
     display: flex;
@@ -199,3 +200,212 @@ nav{
     margin-left: 50px;
     font-size: 30px;
 }
+.contact{
+    background-color: #eff0f0;
+    padding: 100px 174px;
+    display: flex;
+}
+
+.contact_info{
+    width: 40%;
+    padding-right: 80px;
+}
+
+.contact_info_title{
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 60px 0 40px;
+}
+
+.contact_real{
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.contact_real:nth-child(4){
+    cursor: pointer;
+}
+
+.contact_real i{
+    color: #ff5740;
+    margin-right: 22px;
+    font-size: 1.5rem;
+}
+
+.contact_real p{
+    color: #6e7a81;
+    font-size: 1.4rem;
+}
+
+.contact_span{
+    display: block;
+    margin-bottom: 14px;
+    color: #6e7a81;
+    font-size: 1.4rem;
+}
+
+.contact_social{
+    display: flex;
+    margin-top: 36px;
+}
+
+.contact_social-rim{
+    border: 1px solid #6e7a81;
+    border-radius: 50%;
+    margin: 0 6px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_social-rim:hover{
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.contact_social-rim i{
+    color: black;
+    font-size: 1.4rem;
+}
+
+.contact_import{
+    width: 60%;
+    background-color: white;
+    border-radius: 4px;
+    padding: 36px 40px;
+}
+
+.contact_import input::placeholder{
+    color: black;
+}
+
+.contact_ip_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.contact_info-ipt{
+    width: 44%;
+    border-bottom: 1px solid #dadada;
+    position: relative;
+}
+
+.contact_info-ipt div{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 34px;
+    height: 1px;
+    background-color: black;
+}
+
+.contact_info-ipt_input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    padding: 0 40px 12px 0;
+}
+
+.contact_subject{
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 50px;
+}
+
+.contact_subject div{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 34px;
+    height: 1px;
+    background-color: black;
+}
+
+.contact_subject_input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    padding: 0 40px 12px 0;
+}
+
+.contact_message{
+    width: 100%;
+    height: 105px;
+    position: relative;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 50px;
+}
+
+.contact_message div{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 34px;
+    height: 1px;
+    background-color: black;
+}
+
+.contact_message_input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    padding: 0 40px 12px 0;
+}
+
+.contact_btn{
+    font-size: 1.4rem;
+    background-color: #ff5740;
+    color: white;
+    padding: 22px 30px;
+    border-radius: 4px;
+    border: 1px solid #ff5740;
+}
+
+.contact_btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #ff5740;
+}
+
+.footer{
+    background-color: #031521;
+    padding: 160px 100px;
+}
+
+.footer_logo{
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.footer_add{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer_add li{
+    color: white;
+    padding: 0 30px;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+
+.footer_add li:hover{
+    cursor: pointer;
+    color: #ff5740;
+}
+
+.copyright{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
