@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sach san pham</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DOpen+Sans:wght@400; 600&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+        }
+       body{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            color: #111;  
+            line-height: 1.15;
+        }
+        #wrapper{
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .headline{
+            text-align: center;
+            margin: 40px 0px;
+        }
+        h3{
+            font-size: 18px;
+            color: #111;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border: 1px solid #bebebe;
+            display: inline-block;
+            font-weight: 600;
+        }
+        ul.products{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        ul.products li{
+            flex-basis: 33%;
+            padding-left: 15px;
+            padding-right: 15px;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+        ul.products li img{
+            max-width: 100%;
+            height: auto;
+        }
+        ul.products li .product-top{
+            position: relative;
+            overflow: hidden;
+        }
+        ul.products li .product-top .product-thumb img{
+            display: block;
+        }
+        ul.products li .product-top a.buy-now{
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            background-color: #446084;
+            color: #fff;
+            padding: 14px 0px;
+            position: absolute;
+            bottom: -50px;
+            width: 100%;
+            transition: 0.25s ease-in-out;
+
+
+        }
+        ul.products li:hover  a.buy-now{
+            bottom: 0px;
+
+
+        }
+        ul.products li .product-info a{
+            display: block;
+            text-decoration: none;
+        }
+        ul.products li .product-info a.product-name{
+            color: #334862;
+            padding: 8px 60px;
+            font-size: 24px;         
+        }
+        ul.products li .product-info .product-price{
+        color: brown;
+        padding: 8px 60px;
+        font-weight: 600;
+        font-size: 24px; 
+        }
+        .footer{
+    background-color: #031521;
+    padding: 160px 100px;
+}
+
+.footer_logo{
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.footer_add{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer_add li{
+    color: white;
+    padding: 0 30px;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+
+.footer_add li:hover{
+    cursor: pointer;
+    color: #ff5740;
+}
+
+.copyright{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+    </style>
+    <div id="wrapper">
+        <div class="headline">
+            <h3>Reference list</h3>
+        </div>
+        <ul class="products">
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                         <a href="" class="product-thumb">
+                             <img src="img/p1.jpg" alt="">
+                         </a>
+                         <a href="" class="buy-now">Mua ngay</a>
+
+                      
+                    </div>
+                    <div class="product-info">
+                       
+                        <a href="" class="product-name">Lorem ipsum dolor
+                        </a>
+                         <div class="product-price">$ 12.00</div>
+                    </div>
+                </div>
+                
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                         <a href="" class="product-thumb">
+                             <img src="img/p2.jpg" alt="">
+                         </a>
+                         <a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        
+                        <a href="" class="product-name">Adipisicing elit</a>
+                         <div class="product-price">$ 15.00</div>
+                    </div>
+                </div>
+                
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                         <a href="" class="product-thumb">
+                             <img src="img/p3.jpg" alt="">
+                         </a>
+                         <a href="" class="buy-now">Mua ngay</a>
+                      
+                    </div>
+                    <div class="product-info">
+                        
+                        <a href="" class="product-name">Incididunt ut labore</a>
+                         <div class="product-price">$ 30.00</div>
+                    </div>
+                </div>
+                
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                         <a href="" class="product-thumb">
+                             <img src="img/p4.jpg" alt="">
+                         </a>
+                         <a href="" class="buy-now">Mua ngay</a>
+                      
+                    </div>
+                    <div class="product-info">
+                        
+                        <a href="" class="product-name">Dolore magna aliqua</a>
+                         <div class="product-price">$ 25.00</div>
+                    </div>
+                </div>
+                
+                
+                
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                         <a href="" class="product-thumb">
+                             <img src="img/p5.jpg" alt="">
+                         </a>
+                         <a href="" class="buy-now">Mua ngay</a>
+                      
+                    </div>
+                    <div class="product-info">
+                        
+                        <a href="" class="product-name">Dolore magna aliqua</a>
+                         <div class="product-price">$ 50.00</div>
+                    </div>
+                </div>
+                
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                         <a href="" class="product-thumb">
+                             <img src="img/p6.jpg" alt="">
+                         </a>
+                         <a href="" class="buy-now">Mua ngay</a>
+                      
+                    </div>
+                    <div class="product-info">
+                        
+                        <a href="" class="product-name">Incididunt ut labore</a>
+                         <div class="product-price">$ 30.00</div>
+                    </div>
+                </div>
+                
+            </li>
+            
+            
+        </ul>
+
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <ul class="footer_add">
+            <li>Home</li>
+            <li>Author</li>
+            <li>Chapter</li>
+            <li>Blog</li>
+            <li>Shop</li>
+            <li>Contacts</li>
+        </ul>
+    </div>
+
+    <div class="copyright">
+        © Copyright 2020 All Rights Reserved
+    </div>
+   
+
+    
+</body>
+</html>
